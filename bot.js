@@ -7,11 +7,11 @@ client.login(process.env.BOT_TOKEN);
 
 client.on('ready', function () {
     console.log('Bot Connected')
-    client.user.setGame(`Kingdom System ( Prefix: + )`,"http://twitch.tv/Death Shop")
+    client.user.setGame(`Spark System ( Prefix: + )`,"http://twitch.tv/Death Shop")
 })
 
 client.on('guildMemberAdd', member =>{
-    member.guild.channels.get('605438284151128065').send(' **Hello** ' + member.user + ', **Welcome to Kingdom** , **We are now** ' + member.guild.memberCount + ' **Members** ! :heart:');
+    member.guild.channels.get('690315255330504835').send(' **Hello** ' + member.user + ', **Welcome to Spark** , **We are now** ' + member.guild.memberCount + ' **Members** ! :heart:');
     console.log('+1');
 });
 
